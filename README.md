@@ -1,2 +1,9 @@
 # Asteroids
 Asteroids game
+
+itch.io link:
+
+https://tskeen.itch.io/space-junk-asteroids-assignment
+
+Additional Features:
+  I didn't know how I would implement shooting and destroying asteroids so I chose to make a slightly different kind of game than asteroids. I wanted to make a space junk game where the goal is to not get taken out by the asteroids but instead of destroying them you avoid them until they disappear in ten seconds. Because the player is unable to destroy the asteroids, the ship needed to be more maneuverable than the normal asteroids ship so I made it very agile. However I chose to implement an additional maneuvering mechanic. I decided that there is only so much thrust the ship can exert at once and so if you attempt to turn while thrusting you will turn slower. However if you rotate while not thrusting you will rotate much more quickly. I  found this to be an interesting mechanic because it changed how you have to manuever in a pinch. I also added an upper limit to speed overall. Additional features beyond those features that I added include screen wrapping, which allows the player (and the asteroids) to move from the bottom/side of the screen to the opposite side/top of the screen allowing the player more freedom of movement and preventing camera issues. Another feature I added was random force and rotation applied to each asteroid. This I found particularly interesting because of the different shapes of asteroids it meant that when asteroids collided it created some unpredictable asteroid movement for the player to avoid. A final additional feature that I added was the high score and the current score UI features. These features allow you to see your current score (how many seconds you have survived) in that life and your high score over all of your lives. 
